@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('workshopWeb')
+    .module('frontend')
     .controller('MainController', MainController);
 
   /** @ngInject */
