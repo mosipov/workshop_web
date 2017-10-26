@@ -6,11 +6,12 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($mdSidenav) {
+  function MainController($mdSidenav, $log) {
     var vm = this;
     vm.toggleLeftMenu = function(){
       $mdSidenav('left').toggle();
+      $log.info();
     };
-    
+
   }
 })();
